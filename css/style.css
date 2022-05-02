@@ -1,0 +1,380 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding: 15px 0;
+}
+
+.icon img {
+    margin-right: 10px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.form-section {
+    width: 40px;
+}
+
+.image-section {
+    width: 40px;
+    justify-content: flex-end;
+}
+
+.form-container {
+    display: flex;
+}
+
+.flex-section {
+    display: flex;
+}
+
+#mechanic-section .text-section, .image-section {
+    width: 50%;
+}
+
+.text-section {
+    font-size: 50px;
+    padding: 0 40px;
+}
+
+.image-section {
+    background-image: url(../images/mechanic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.clock-section {
+    display: flex;
+}
+
+.clock-section {
+    padding: 40px 0 ;
+}
+
+.clock-section .clock-place {
+    width: 20%;
+}
+
+.clock-place {
+    margin-top: 40px;
+}
+
+.clock-section .time-section {
+    width: 80%;
+}
+
+.text-section small {
+    font-size: 20px;
+}
+
+.clock-section img {
+    width: 60%;
+    margin-top: 45px;
+}
+
+.clock-section .time-section {
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+.time-section p {
+    font-size: 25px;
+}
+
+#second-form {
+    background: #e2e6e9;
+}
+
+.second-flex {
+    display: flex;
+    margin: 25px 50px;
+}
+
+.left-side h2 {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.left-side li {
+    list-style: none;
+}
+
+.image-box img {
+    width: -10%;
+}
+
+.text-box {
+    margin-left: 15px;
+}
+
+.left-side h4 {
+    margin-top: 50px;
+    margin-left: 96px;
+    font-size: 20px;
+}
+
+.left-side {
+    width: 40%;
+    height: 100vh;
+    margin: 50px;
+}
+
+.right-side {
+    width: 40%;
+    height: 100vh;
+    margin: 50px;
+    margin-left: 60px;
+}
+
+.right-side h3 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.right-side input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 20px;
+    border-radius: 1px;
+    background: #FFFFFF;
+    margin-top: 3px;
+}
+
+.right-side .btn-side {
+    margin-top: 50px;
+}
+
+#third-form {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.third-flex {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+    height: 100vh;
+}
+
+.third-left-side {
+    width: 40%;
+    margin: 50px;
+    height: 100vh;
+}
+
+.third-right-side {
+    width: 40%;
+    margin: 50px;
+    height: 100vh;
+}
+
+.third-left-side h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.third-right-side li {
+    list-style: none;
+    margin-top: -30px;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+.image-quote-flex {
+    display: flex;
+    gap: 9px;
+}
+
+.third-image-box {
+    width: 72px;
+    height: 72px;
+    position: relative;
+}
+
+.third-text-box h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.third-text-box p {
+    font-size: 18px;
+}
+
+.third-right-side .image-quote-flex .third-image-box {
+    text-align: center;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.third-right-side .image-quote-flex .third-image-box .line-box img {
+    width: 2%;
+}
+
+#fourth-offer {
+    background: #f2f2f2;
+    height: 100vh;
+    padding: 40px 80px;
+}
+
+#fourth-offer .container h5, #fourth-offer .container h2 {
+    text-align: center;
+}
+
+#fourth-offer .container h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#fourth-offer .container h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#fourth-offer .offer .form-box {
+    background: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 24%;
+    margin: 5px;
+}
+
+#fourth-offer .offer {
+    flex-wrap: wrap;
+}
+
+.arrow-link a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.arrow-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 63px;
+}
+
+#fourth-offer .offer .form-box:hover {
+    background: #ff6433;
+    color: white;
+}
+
+#workshop-section {
+    height: 640px;
+    display: flex;
+    background: #f2f2f2;
+}
+
+#workshop-section .benz-section {
+    height: 500px;
+    width: 20%;
+    background: url(../images/benz.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#workshop-section .orange-section {
+    height: 500px;
+    width: 30%;
+    background: #ff6433;
+    background-size: cover;
+    background-position: center;
+}
+
+#workshop-section .orange-section h2 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 520;
+    font-weight: 520;
+}
+
+#workshop-section .tools-section {
+    height: 500px;
+    width: 50%;
+    background: url(../images/engine.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.numbers {
+    justify-content: space-around;
+    margin-top: -100px;
+    margin-bottom: 35px;
+}
+
+.numbers h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #661ce7;
+}
+
+#brand-section {
+    height: 615px;
+    background: #fafafa;
+    padding: 50px 80px;
+}
+
+#brand-section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#brand-section .brand-logo {
+    margin-top: 50px;
+}
