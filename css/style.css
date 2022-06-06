@@ -5,11 +5,13 @@
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    padding: 0 5rem;
 }
 
 .main-header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,8 +63,14 @@
     display: flex;
 }
 
+#mechanic-section{
+    width: 100%;
+    padding: 0 2rem;
+    min-height: 100vh;
+}
+
 #mechanic-section .text-section, .image-section {
-    width: 50%;
+    width: 100%;
 }
 
 .text-section {
@@ -114,11 +122,10 @@ button {
 
 .clock-section img {
     width: 60%;
-    margin-top: 45px;
 }
 
 .clock-section .time-section {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: -30px;
 }
 
@@ -128,6 +135,8 @@ button {
 
 #second-form {
     background: #e2e6e9;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .second-flex {
@@ -193,7 +202,7 @@ button {
 #third-form {
     display: flex;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .third-flex {
@@ -312,8 +321,8 @@ button {
 }
 
 #workshop-section {
-    height: 640px;
     display: flex;
+    min-height: 95vh;
     background: #f2f2f2;
 }
 
@@ -362,7 +371,7 @@ button {
 }
 
 #brand-section {
-    height: 615px;
+    min-height: 100vh;
     background: #fafafa;
     padding: 50px 80px;
 }
@@ -378,3 +387,1314 @@ button {
 #brand-section .brand-logo {
     margin-top: 50px;
 }
+
+/*customer-part*/
+#customer-part {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#customer-part .customer-container {
+    padding: 50px 100px;
+}
+
+#customer-part .customer-container h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.customer-container .review-section {
+    justify-content: center;
+}
+
+.customer-container .review-section {
+    display: flex;
+}
+
+.review-section .left-review {
+    background: hsla(0, 0%, 100%, 0.911);
+    border: 1px solid white;
+    width: 35%;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.left-review .image-review {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.right-review .image-review {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+} 
+
+.review-section .right-review {
+    background: white;
+    border: 1px solid white;
+    width: 35%;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.customer-container .bottom-row {
+    display: flex;
+    width: 100%;
+}
+
+.bottom-row .first {
+    width: 25%;
+}
+
+.bottom-row .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.bottom-row .third {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+    width: 25%;
+    margin-left: -14%;
+    margin-top: 40px;
+}
+
+/*eight-section*/
+#question-section {
+    width: 100%;
+    background: #E2E6E9;
+    min-height: 100vh;
+    padding: 5% 0;
+}
+
+#question-section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#question-section .question-parts {
+    margin-top: 3rem;
+}
+
+#question-section .questions {
+    display: flex;
+    justify-content: center;
+}
+
+.question-parts .first-quest h5 {
+    font-size: 15px;
+    margin-right: 24.3rem;
+    margin-bottom: 10px;
+}
+
+.question-parts .first-quest {
+    display: flex;
+}
+
+.question-parts .first-quest  span {
+    color: white;
+    background: orangered;
+    padding: 1px 4px;
+    border: 1px solid orangered;
+}
+
+.question-parts .second-quest {
+    display: flex;
+}
+
+.question-parts .second-quest span {
+    color: white;
+    background: orangered;
+    padding: 1px 4px;
+    border: 1px solid orangered;
+}
+
+.question-parts .second-quest h5 {
+    font-size: 15px;
+    margin-right: 22rem;
+}
+
+.question-parts .third-quest {
+    display: flex;
+}
+
+.question-parts .third-quest h5 {
+    font-size: 15px;
+    margin-right: 23.3rem;
+}
+
+.question-parts .third-quest span {
+    color: white;
+    background: orangered;
+    padding: 1px 4px;
+    border: 1px solid orangered;
+}
+
+.question-parts .fourth-quest {
+    display: flex;
+}
+
+
+.question-parts .fourth-quest h5 {
+    font-size: 15px;
+    margin-right: 22.8rem;
+}
+
+.question-parts .fourth-quest span {
+    color: white;
+    background: orangered;
+    padding: 1px 4px;
+    border: 1px solid orangered;
+}
+
+.question-parts .fifth-quest h5 {
+    font-size: 15px;
+    margin-right: 23.4rem;
+}
+
+.question-parts .fifth-quest {
+    display: flex;
+}
+
+.question-parts .fifth-quest span {
+    color: white;
+    background: orangered;
+    padding: 1px 4px;
+    border: 1px solid orangered;
+}
+
+
+.question-parts .first-quest {
+    background: white;
+    width: 100%;
+    height: 30%;
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.first-quest .quest-row span{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quest-row span {
+    height: 10px;
+    width: 30px;
+    background: #ff6433;
+}
+
+.question-parts .second-quest {
+    background: white;
+    width: 100%;
+    height: 15%;
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.question-parts .third-quest {
+    background: white;
+    width: 100%;
+    height: 15%;
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.question-parts .fourth-quest {
+    background: white;
+    width: 100%;
+    height: 15%;
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 20px;
+}
+.question-parts .fifth-quest {
+    background: white;
+    width: 100%;
+    height: 15%;
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+/*ninth-part*/
+
+#intouch-section {
+    min-height: 100vh;
+    background: #1E1B1B;
+    padding: 5rem 5rem 0;
+    color: white;
+}
+
+#intouch-section .intouch-parts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+
+
+.intouch-parts h2 {
+    font-size: 45px;
+}
+
+.intouch-parts .intouch-images {
+    margin-top: 11rem;
+}
+
+.intouch-parts .intouch-images img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.intouch-parts .intouch-right {
+    margin-left: 5rem;
+}
+
+.intouch-parts .intouch-right small {
+    font-size: 15px;
+    color: #939191;
+}
+
+.intouch-right h5 {
+    margin-top: 10px;
+    margin-bottom: 5rem;
+}
+
+.intouch-parts .intouch-right h5 {
+    font-size: 25px;
+}
+
+#intouch-section footer {
+    background: #1E1B1B;
+    display: flex;
+    padding: 5rem 5rem 0;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+footer .footer-link ul {
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-copy {
+    font-size: 18px;
+    color: #939191;
+}
+
+/*Talet-view */
+@media (max-width: 769px) {
+    .main-header {
+        padding: auto;
+        width: 100%;
+    }
+
+    .main-header .logo-section {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    .logo-section img {
+        width: 90%;
+    }
+
+    .main-header .right-section {
+        display: flex;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .icon img {
+        width: 68%;
+    }
+
+    .inner-section p {
+        font-size: 15px;
+        margin-left: -5px;
+    }
+
+    .navigation ul li {
+        align-items: center;
+        display: block;
+    }
+
+
+    #mechanic-section {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .flex-section {
+        width: 100%;
+    }
+
+    .text-section {
+        width: 100%;
+    }
+
+    .text-section h1 {
+        font-size: 27px;
+    }
+
+    .text-section button {
+        width: 70%;
+    }
+
+    .text-section .clock-section {
+        margin-top: 5px;
+    }
+
+    .flex-section .image-section {
+        width: 90%;
+    }
+
+    .text-section .clock-section {
+        margin-top: -30px;
+    }
+    
+    .clock-section {
+        
+        display: flex;
+        width: 100%;
+    }
+
+    .clock-section .clock-place {
+        width: 45%;
+        margin-top: auto;
+    }
+
+    .time-section {
+        width: 55%;
+        font-size: 8px;
+    }
+
+    .time-section small {
+        font-size: 15px;
+    }
+
+    .time-section p {
+        font-size: 18px;
+    }
+
+    /* second-section */
+
+    #second-form .second-container {
+        width: 100%;
+    }
+
+    .second-container .second-flex {
+        display: flex;
+    }
+
+    .second-flex {
+        margin: auto;
+    }
+
+    .second-flex .left-side {
+        min-height: 125vh;
+    }
+
+    .second-flex .third-left-side {
+        width: 50%;
+        margin: 10px;
+    }
+
+    .second-flex .image-box {
+        width: 50%;
+    }
+
+    .image-box img {
+        width: 70%;
+    }
+
+    .second-flex .text-box {
+        margin-left: 2px;
+        margin-bottom: 10px;
+    }
+
+    .second-flex .text-box h5 {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    .second-flex .text-box p {
+        font-size: 14px;
+    }
+
+    .left-side .arrow-box h4 {
+        margin-top: 1px;
+        margin-left: 2px;
+        font-size: 16px;
+    }
+
+    .left-side h2 {
+        margin: auto;
+        font-size: 25px;
+    }
+
+    .second-flex .right-side {
+        width: 50%;
+        margin-top: 5px;
+    }
+
+    .right-side h3 {
+        font-size: 26px;
+    }
+
+    .right-side label {
+        margin-top: 3px;
+    }
+
+    .right-side input[type="text"], input[type="number"] {
+        width: 100%;
+        height: 4px;
+    }
+
+    .right-side .btn-side {
+        margin-top: 25px;
+    }
+
+    .right-side .btn-side button {
+        width: 50%;
+        padding: 15px;
+        height: 10%;
+        margin-top: 2px;
+    }
+
+    /* third-section */
+    #third-form {
+
+    }
+
+    .third-container .third-flex {
+        width: 100%;
+        height: 130vh;
+        margin: 0;
+    }
+
+    .third-flex .third-left-side {
+        margin: 20px 40px;
+    }
+
+    .third-left-side {
+        width: 70%;
+    }
+
+    .third-left-side h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .third-left-side button {
+        width: 50%;
+    }
+
+    .third-right-side {
+        width: 100%;
+        margin: 50px 20px;
+    }
+
+    .third-right-side ul li {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .image-quote-flex .third-image-box img {
+        width: 50%;
+    }
+    
+    .third-right-side .image-quote-flex .third-image-box {
+        margin-right: 2px;
+    }
+
+    .third-right-side .third-text-box {
+        margin-left: 0.098px;
+        margin-right: 10px;
+    }
+
+    .third-right-side .image-quote-flex {
+        gap: 1px;
+    }
+
+    .third-image-box .line-box img {
+        height: 30px;
+    }
+
+    .third-right-side .image-quote-flex .third-text-box p {
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+
+    .third-right-side .image-quote-flex .third-text-box h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    /* fourth-section */
+
+    #fourth-offer {
+        width: 100%;
+        height: 150vh;
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    #fourth-offer .container h5 {
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    #fourth-offer .container h2 {
+        font-size: 25px;
+    }
+
+    #fourth-offer .offer .form-box {
+        width: 20%;
+        height: 50%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    #fourth-offer .offer {
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+    }
+
+    #fourth-offer .arrow-link {
+        margin-top: 5px;
+        margin-right: 16%;
+    }
+
+    /* fifth-section */
+    #workshop-section {
+        width: 100%;
+        min-height: 55vh;
+    }
+
+    #workshop-section .benz-section {
+        width: 22%;
+        height: 300px;
+    }
+
+    #workshop-section .orange-section {
+        width: 33%;
+        height: 300px;
+    }
+
+    #workshop-section .orange-section h2 {
+        font-size: 20px;
+    }
+
+    #workshop-section .tools-section {
+        width: 45%;
+        height: 300px;
+    }
+
+    .numbers {
+        background: #f2f2f2;
+        font-size: 15px;
+    }
+
+    .numbers .purple h2 {
+        font-size: 30px;
+    }
+
+    #brand-section {
+        width: 100%;
+        min-height: 100vh;
+        padding: 10px 20px;
+    }
+
+    #brand-section h2 {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    #brand-section .brand-logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #brand-section .brand-logo {
+        width: 100%;
+    }
+
+    .brand-logo img {
+        width: 100%;
+    }
+
+    #brand-section .brands-logo img  {
+        width: 100%;
+    }
+    
+    /* seventh-section */
+    #customer-part .customer-container {
+        padding: 10px 25px;
+        margin-bottom: 20px;
+    }
+
+    #customer-part .customer-container h2 {
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #customer-part .customer-container .review-section {
+        width: 100%;
+    }
+
+    .customer-container .review-section .left-review {
+        width: 50%;
+    }
+
+    .customer-container .review-section .right-review {
+        width: 50%;
+    }
+
+    .customer-container .bottom-row .second img {
+        width: 34%;
+    }
+
+    .customer-container .bottom-row .third img {
+        width: 25%;
+    }
+
+    .bottom-row .second {
+        margin-top: 5px;
+        margin-right: 30px;
+    }
+
+    .bottom-row .third {
+        margin-top: 5px;
+    }
+    
+    /* eight-section */
+    #question-section {
+        width: 100%;
+    }
+
+    #question-section h2 {
+        font-size: 20px;
+    }
+
+    #question-section .question-parts {
+        margin-top: 15px;
+    }
+
+    /* ninth-section */
+    #intouch-section {
+        padding: 20px;
+        min-height: 50vh;
+    }
+
+    #intouch-section .intouch-parts {
+        margin: 20px;
+    }
+
+    .intouch-parts h2 {
+        font-size: 30px;
+    }
+
+    .intouch-parts .intouch-left {
+        width: 50%;
+    }
+
+    .intouch-parts .intouch-left {
+        width: 50%;
+    }
+
+    .intouch-parts .intouch-left .intouch-images {
+        width: 100%;
+    }
+
+    .intouch-parts .intouch-images {
+        margin-top: 7rem;
+    }
+
+    .intouch-left .intouch-images img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .intouch-parts .intouch-right {
+        margin-bottom: 30px;
+    }
+
+    .intouch-parts .intouch-right h5 {
+        font-size: 20px;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+
+    #intouch-section footer {
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    footer .footer-image {
+        width: 23%;
+        padding: 0 20px;
+    }
+
+    footer .footer-link ul {
+        font-size: 16px;
+        margin-top: 5px;     
+    }
+
+    footer .footer-copy {
+        font-size: 16px;
+        margin-top: 5px;
+        padding-right: 20px;
+    }
+
+
+}
+
+
+
+/* mobile- view */
+@media (max-width: 426px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    .logo-section {
+        width: 100%;
+    }
+
+    .logo-section img {
+        width: 120%;
+    }
+
+    .main-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section .navigation {
+        width: 100%;
+    }
+
+    .right-section .navigation ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .right-section .navigation ul li {
+        padding: 4px 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .right-section .navigation ul li a {
+        display: block;
+        font-size: 17px;
+    }
+    .road-assistance { 
+        align-items: flex-start;
+        width: 100%;
+        padding: 0;
+    }
+
+    .road-assistance .icon img {
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .road-assistance .inner-section p {
+        font-size: 17px;
+        margin-left: 5px;
+    }
+
+    .flex-section {
+        flex-direction: column;
+    }
+
+    #mechanic-section {
+        padding: 0;
+    }
+
+    #mechanic-section .clock-section {
+        margin-top: -5rem;
+    }
+
+    #mechanic-section .text-section {
+        width: 100%;
+        padding: 20px 50px;
+    }
+
+    #mechanic-section .text-section button {
+        width: 35%;
+        height: 40%;
+        margin-bottom: 60px;
+        padding: 10px;
+    }
+
+    #mechanic-section .text-section h1 {
+        font-size: 25px;
+    }
+
+    #mechanic-section .text-section .clock-place {
+        width: 50%;
+    }
+
+    #mechanic-section .text-section .clock-place img {
+        width: 60%;
+    }
+
+    #mechanic-section .text-section .time-section {
+        width: 100%;
+    
+    }
+
+    #mechanic-section .text-section {
+        order: 2;
+    }
+
+    #mechanic-section .image-section {
+        order: 1;
+    }
+
+    #mechanic-section .image-section {
+        width: 100%;
+    }
+
+    #mechanic-section .image-section img {
+        width: 100%;
+    }
+
+    
+    /* second-section */
+
+    #second-form {
+        width: 100%;
+    }
+    #second-form .second-container {
+        flex-direction: column;
+    }
+
+    #second-form .second-container{
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+    
+    }
+
+    #second-form .second-flex {
+        width: 100%;
+        margin: 0 auto 20px;
+        flex-direction: column;
+    }
+
+    .second-flex .left-side .text-box {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .second-flex .left-side {
+        min-height: 130vh;
+        width: 100%;
+    }
+
+    .second-flex .left-side h2 {
+        font-size: 25px;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .second-flex .right-side {
+        width: 100%;
+        min-height: 160vh;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .second-flex .right-side h3 {
+        margin-top: 6rem;
+    }
+
+    .second-flex .right-side  ul {
+        display: flex;
+    }
+
+    .second-flex .right-side .btn-side {
+        width: 60%;
+    }
+
+    .left-side .second-flex {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .left-side .second-flex .image-box {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .left-side .second-flex .text-box {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .left-side .second-flex img {
+        width: 35px;
+    
+    }
+
+    .second-flex .left-side ul li {
+        margin: 3px 0;
+    } 
+
+    .second-flex ul {
+        width: 95%;
+        margin-top: 0;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .second-flex .left-side {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #third-form .third-flex {
+        flex-direction: column;
+        margin-bottom: 18rem;
+    }
+
+    .third-flex .third-left-side {
+        width: 100%;
+    }
+
+    .third-flex .third-left-side {
+        margin: 20px;
+        padding: 5px 5px 0;
+    }
+
+    .third-left-side button {
+        width: 30%;
+        padding: 15px;
+    }
+
+    .third-flex .third-right-side {
+        width: 100%;
+
+    }
+
+    .third-right-side ul li {
+        margin-left: 0;
+    }
+
+    #fourth-offer {
+        min-height: 225vh;
+    }
+
+    #fourth-offer .container h2 {
+        margin: 10px 0;
+    }
+
+    #fourth-offer .arrow-link {
+        margin-right: 1.9rem;
+    }
+
+
+    #fourth-offer .container {
+        flex-direction: column;
+        background: #f2f2f2;
+    }
+
+    #fourth-offer .offer {
+        background: #f2f2f2;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #fourth-offer .offer .form-box {
+        width: 45%;
+    }
+
+    #workshop-section {
+        
+    }
+
+    #workshop-section .benz-section {
+        width: 25%;
+        height: 200px;
+    }
+
+    #workshop-section .orange-section {
+        width: 35%;
+        height: 200px;
+    }
+
+    #workshop-section .orange-section h2 {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    #workshop-section .tools-section {
+        width: 40%;
+        height: 200px;
+    }
+
+    .numbers {
+        min-height: 25vh;
+        padding-left: 15px;
+    }
+
+    .numbers p {
+        font-size: 13.5px;
+    }
+
+    #brand-section {
+        width: 100%;
+        min-height: 60vh;
+    }
+
+    #brand-section .brand-logo {
+        margin-left: 0;
+    }
+
+    .brand-logo img {
+        width: 120%;
+    }
+
+    #brand-section .brands-logo img {
+        width: 120%;
+    }
+
+    #customer-part .customer-container h2 {
+        font-size: 22px;
+    }
+
+    .customer-container .review-section {
+        flex-direction: column;
+    }
+
+    .review-section .left-review {
+        width: 100%;
+    }
+
+    .left-review .image-review img {
+        width: 110%;
+    }
+
+    .customer-container .review-section .left-review {
+        width: 100%;
+    }
+
+    .left-review .image-review h5 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .left-review .image-review p {
+        font-size: 20px;
+    }
+
+    .customer-container .review-section .right-review {
+        width: 100%;
+    }
+
+    .right-review .image-review img {
+        width: 110%;
+    }
+
+    .right-review .image-review h5 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .right-review .image-review p {
+        font-size: 20px;
+    }
+
+    .customer-container .bottom-row .second img {
+        width: 50%;
+    }
+
+    .bottom-row .second {
+        margin-top: 0;
+    }
+
+    .customer-container .bottom-row .third img {
+        width: 50%;
+    }
+
+    .bottom-row .third {
+        margin-top: 0;
+    }
+
+    #question-section {
+        width: 100%;
+        min-height: 200vh;
+        padding: 2rem;
+    }
+
+    #question-section .questions {
+        width: 100%;
+        min-height: 150vh;
+    }
+
+    #question-section .question-parts {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .question-parts .first-quest {
+        padding: 10px;
+        width: 100%;
+        height: 35%;
+
+    }
+
+    .question-parts .first-quest h5 {
+        margin-right: 4rem;
+    }
+
+    .question-parts .second-quest {
+        padding: 10px;
+        width: 100%;
+        height: 15%;
+    }
+
+    .question-parts .second-quest h5 {
+        margin-right: 4rem;
+    }
+
+    .question-parts .third-quest {
+        padding: 10px;
+        width: 100%;
+        height: 15%;
+    }
+
+    .question-parts .third-quest h5 {
+        margin-right: 4rem;
+    }
+
+    .question-parts .fourth-quest {
+        padding: 10px;
+        width: 100%;
+        height: 15%;
+    }
+
+    .question-parts .fourth-quest h5 {
+        margin-right: 4rem;
+    }
+
+    .question-parts .fifth-quest {
+        padding: 10px;
+        width: 100%;
+        height: 15%;
+    }
+
+    .question-parts .fifth-quest h5 {
+        margin-right: 4rem;
+    }
+
+    #intouch-section {
+
+    }
+
+    #intouch-section .intouch-parts {
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .intouch-parts .intouch-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .intouch-parts .intouch-left h2 {
+        font-size: 30px;
+    }
+
+    .intouch-parts .intouch-left .intouch-images {
+        margin-top: 25px;
+    }
+
+    .intouch-parts .intouch-right {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    #intouch-section footer {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    footer .footer-image {
+        width: 10%;
+        margin-bottom: 10px;
+    }
+
+    footer .footer-link ul {
+        gap: 10px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    footer .footer-link ul li {
+        width: 100%;
+        display: block;
+    }
+
+    footer .footer-copy {
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+
+     
+
+
+
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* all-section */
+
+

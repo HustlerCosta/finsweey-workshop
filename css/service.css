@@ -1,0 +1,914 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#first-service {
+    min-height: 100vh;
+    padding: 3rem 0 5rem;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    margin-bottom: 3rem;
+}
+
+header .fin {
+    margin-right: 30rem;
+}
+
+header .fin img {
+    width: 110%;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 5rem;
+}
+header .line {
+    margin-left: -4rem;
+    margin-right: 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .logo {
+    display: flex;
+    margin-right: 2rem;
+    margin-top: -5px;
+    gap: 20px;
+}
+
+header .logo small {
+    font-size: 17px;
+}
+
+#first-service .division {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#first-service .division .left-division {
+    width: 40%;
+    margin-left: 5rem;
+}
+
+#first-service .division .right-division {
+    width: 70%;
+    margin-right: 5rem;
+    background: black;
+    background-size: cover;
+    color: white;
+    padding: 5rem;
+}
+
+.division .right-division h2 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.division .right-division button {
+    width: 35%;
+    height: 12%;
+    margin-top: 60px;
+    border: 2px solid #FF6433;
+    background: #FF6433;
+    color: white;
+    border-radius: 12px;
+}
+
+/*second-section*/
+#auto-section {
+    min-height: 100vh;
+    background: #F5F5F5;
+    width: 100%;
+    padding: 5rem 10rem;
+}
+
+#auto-section .auto-division {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.auto-division .auto-left {
+    background: white;
+    background-size: cover;
+    width: 45%;
+    margin-right: 20px;
+    padding: 2rem;
+}
+
+.auto-division .auto-left img {
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+.auto-division .auto-left h2 {
+    font-weight: 800;
+}
+
+.auto-division .auto-left .auto-small {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.auto-division .auto-left p {
+    margin: 15px 0;
+}
+
+.auto-division .auto-right {
+    height: 100%;
+    display: flex;
+    width: 45%;
+}
+
+.auto-right .auto-tools {
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.auto-right .auto-tools .auto-images {   
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 25px 0;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+ .auto-tools .auto-images{
+    width: 100%;
+}
+
+.auto-tools .auto-images img {
+    /* width: 50%; */
+    align-items: center;
+    justify-content: center;
+} 
+
+/*third-section*/
+#process-section {
+    min-height: 50vh;
+    width: 100%;
+    padding: 5rem 0;
+}
+
+#process-section .main-process {
+    display: flex;
+    padding: 0 10rem;
+}
+
+.main-process .left-process {
+    width: 40%;
+    margin-right: 5rem;
+}
+
+.main-process .left-process h2 {
+    font-size: 40px;
+}
+
+.main-process .left-process .image-process {
+    display: flex;
+    gap: 15px;
+}
+
+.main-process .right-process {
+    width: 40%;
+}
+
+.right-process .process-images img {
+    width: 49.5%;
+}
+
+/*fourth-section*/
+#diagnose {
+    min-height: 50vh;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+#diagnose .diagnose-section {
+    display: flex;
+    padding: 0 10rem;
+
+}
+
+.diagnose-section .left-diagnose {
+    width: 40%;
+    display: flex;
+}
+
+.diagnose-section .left-diagnose .diagnose-images {
+    display: flex;
+    gap: 10px;
+}
+
+.diagnose-section .right-diagnose {
+    width: 40%;
+    margin-left: 10rem;
+}
+
+.diagnose-section .right-diagnose h2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.diagnose-section .right-diagnose p {
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.diagnose-section .right-diagnose button {
+    margin-top: 30px;
+    width: 35%;
+    height: 45px;
+    color: white;
+    border: 1px solid #FF6433;
+    background: #FF6433;
+    border-radius: 15px;
+}
+
+/*fifth-section*/
+#touch-section {
+    min-height: 50vh;
+    width: 100%;
+    margin: 0;
+}
+
+#touch-section .images-section {
+    display: flex;
+    width: 100%;
+}
+
+#touch-section .images-section .first-image {
+    width: 24%;
+}
+
+#touch-section .images-section .second-image {
+    width: 36%;
+    height: 80%;
+    background: #FF6433;
+    color: white;
+    padding: 8rem 2rem;
+}
+
+#touch-section .images-section .second-image h2 {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+#touch-section .images-section .second-image button {
+    margin-top: 70px;
+    width: 35%;
+    height: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+#touch-section .images-section .third-image {
+    width: 40%;
+}
+
+/* sixth-section */
+#intouch-part {
+    background: black;
+    color: #F5F5F5;
+    min-height: 50vh;
+    width: 100%;
+    padding: 5rem 0;
+}
+
+#intouch-part .main-intouch {
+    display: flex;
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.main-intouch .intouch-left {
+    width: 50%;
+}
+
+.main-intouch .intouch-left h2 {
+    font-size: 40px;
+    margin-bottom: 9.7rem;
+}
+
+.main-intouch .intouch-left .intouch-images {
+    display: flex;
+    gap: 20px;
+    width: 65%;
+}
+
+.intouch-left .intouch-images img {
+    width: 15%;
+}
+
+.main-intouch .intouch-right {
+    width: 50%;
+}
+
+.main-intouch .intouch-right small {
+    font-size: 18px;
+    color: gray;
+}
+
+.main-intouch .intouch-right p {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5rem;
+}
+
+footer {
+    min-height: 20vh;
+    width: 100%;
+    padding: 2rem 10rem;
+    background: black;
+    color: white;
+}
+
+footer .footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .fin-first {
+    width: 25%;
+}
+
+footer .fin-middle {
+    width: 50%;
+}
+
+footer .fin-middle ul {
+    justify-content: center;
+    
+}
+
+footer .fin-middle a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+footer .fin-middle li {
+    list-style: none;
+}
+
+footer .fin-middle ul {
+    display: flex;
+    gap: 20px;
+    font-size: 18.5px;
+    margin-top: 5px;
+}
+
+footer .fin-last {
+    width: 25%;
+}
+
+footer .fin-last small {
+    color: gray;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+/* Tablet-view */
+@media (max-width: 769px) {
+    #first-service {
+        width: 100%;
+        padding: 1rem 1rem 0;
+    }
+
+    header {
+        width: 100%;
+        min-height: 30vh;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    header .fin {
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    header .logo {
+        margin-top: -15px;
+        gap: 10px;
+    }
+
+    header .logo img {
+        width: 110%;
+    }
+
+    header .logo small {
+        font-size: 18px;
+    }
+
+    #first-service .division {
+        width: 100%;
+        min-height: 60vh;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+    }
+
+    #first-service .division .left-division {
+        margin-left: 0;
+    }
+
+    #first-service .division .left-division {
+        width: 65%;
+        height: 20%;
+    }
+
+    #first-service .division .left-division img {
+        width: 220%;
+        height: 100%;
+    }
+
+    #first-service .division .right-division {
+        width: 75%;
+        height: 100%;
+        padding: 3.25rem;
+        margin-right: 0;
+    }
+
+    .division .right-division button {
+        width: 40%;
+        height: 50%;
+        padding: 10px;
+        margin-top: 40px;
+    }
+
+    #auto-section {
+        min-height: 40vh;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    #auto-section .auto-division {
+        margin: 20px 10px;
+    }
+
+    .auto-division .auto-left {
+        min-height: 50vh;
+        padding: 1rem;
+    }
+
+    .auto-division .auto-left h2 {
+        font-size: 20px;
+    }
+
+    .auto-division .auto-left p {
+        font-size: 16px;
+    }
+    .auto-division .auto-left .auto-small small {
+        font-size: 16px;
+    }
+
+    .auto-right .auto-tools .auto-images {
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px;
+        gap: 2;
+    }
+
+    .auto-right .auto-tools .auto-images img {
+        width: 45%;
+        margin: 0 25px;
+    }
+
+    .auto-right .auto-tools .auto-images p {
+        font-size: 16px;
+        margin: 3px 10px;
+    }
+
+    #process-section {
+        width: 100%;
+        padding: 4rem 3rem;
+    }
+
+    #process-section .main-process {
+        padding: 0;
+        width: 100%;
+    }
+
+    #process-section .left-process {
+        width: 40%;
+    }
+
+    .main-process .left-process h2 {
+        font-size: 25px;
+    }
+
+    .main-process .left-process {
+        margin-right: 3rem;
+    }
+
+    
+    .main-process .left-process .image-process img {
+        width: 110%;
+    }
+
+    .main-process .left-process .image-process p {
+        font-size: 15px;
+    }
+
+    .main-process .right-process {
+        width: 55%;
+    }
+
+    .right-process .process-images {
+        display: flex;
+        gap: 8px;
+    }
+
+    .right-process .process-images img {
+        width: 50%;
+        height: 90%;
+    }
+
+    #diagnose {
+        width: 100%;
+        min-height: 60vh;
+    }
+
+    #diagnose .diagnose-section {
+        padding: 0 3rem;
+        min-height: 60vh;
+        margin-bottom: 40px;
+    }
+
+    .diagnose-section .left-diagnose {
+        width: 50%;
+        height: 50%;
+    }
+
+    .diagnose-section .left-diagnose .diagnose-images img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .diagnose-section .left-diagnose .diagnose-images {
+        width: 90%;
+        height: 50%;
+    }
+
+    .diagnose-section .right-diagnose {
+        width: 40%;
+        height: 40%;
+        margin-left: 3.5rem;
+    }
+
+    .diagnose-section .right-diagnose h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .diagnose-section .right-diagnose p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .diagnose-section .right-diagnose button {
+        margin-top: 10px;
+        width: 50%;
+        height: 15%;
+        padding: 12px;
+    }
+
+    #touch-section {
+        margin: 0;
+
+    }
+
+    #touch-section .images-section {
+        width: 100%;
+        min-height: 50vh;
+        margin: 0;
+    }
+
+    #touch-section .images-section .first-image {
+        width: 25%;
+        height: 50%;
+    }
+
+    #touch-section .images-section .first-image img {
+        width: 275%;
+        height: 100%;
+    }
+
+    #touch-section .images-section .second-image {
+        width: 35%;
+        height: 50%;
+        padding: 1.7rem;
+    }
+
+    #touch-section .images-section .second-image h2 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    #touch-section .images-section .second-image button {
+        width: 50%;
+        padding: 13px;
+
+    }
+
+    #touch-section .images-section .third-image {
+        width: 40%;
+    }
+
+    #touch-section .images-section .third-image img {
+        width: 100%;
+        height: 98.5%;
+    }
+
+    #intouch-part {
+        padding: 2rem;
+    }
+
+    #intouch-part .main-intouch {
+        padding: 0;
+    }
+
+    .main-intouch .intouch-left h2 {
+        font-size: 30px;
+        margin-bottom: 5rem;
+    }
+
+    .main-intouch .intouch-left .intouch-images img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .main-intouch .intouch-right {
+        margin-left: 5rem;
+    }
+
+    .main-intouch .intouch-right p {
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        width: 100%;
+        padding: 2rem;
+    }
+    
+    footer .footer-section {
+        width: 100%;
+    }
+
+    footer .fin-middle {
+        margin-top: 6px;
+    }
+
+    footer .fin-last {
+        margin-top: 6px;
+        margin-left: 10px;
+    }
+ 
+
+
+}
+
+
+
+
+
+
+/* mobile-view */
+@media (max-width: 426px) {
+
+    header .fin {
+        width: 30%;
+    }
+    
+    #first-service .division {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #first-service .division .left-division {
+        width: 100%;
+    }
+
+    #first-service .division .left-division img {
+        width: 100%;
+    }
+
+    #first-service .division .right-division {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .division .right-division h2 {
+        font-size: 30px;
+    }
+
+    .division .right-division p {
+        font-size: 15px;
+    }
+
+    #auto-section {
+        width: 100%;
+    }
+
+    #auto-section .auto-division {
+        flex-direction: column;
+    }
+
+    .auto-division .auto-left {
+        width: 100%;
+    }
+
+    .auto-division .auto-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #process-section {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    #process-section .main-process {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #process-section .left-process {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-process .left-process .image-process {
+        width: 100%;
+    }
+
+    .main-process .left-process .image-process img {
+        width: 90%;
+    }
+
+    .main-process .left-process .image-process p {
+        width: 100%;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .main-process .right-process {
+        width: 100%;
+    }
+
+    #diagnose .diagnose-section {
+        width: 100%;
+        padding: 2rem;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .diagnose-section .left-diagnose {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .diagnose-section .left-diagnose .diagnose-images {
+        width: 80%;
+    }
+
+    .diagnose-section .right-diagnose {
+        width: 100%;
+        margin: 0;
+    }
+
+    #touch-section .images-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #touch-section .images-section .first-image {
+        width: 100%;
+    }
+
+    #touch-section .images-section .first-image img {
+        width: 100%;
+    }
+
+    #touch-section .images-section .second-image {
+        width: 100%;
+    }
+
+    #touch-section .images-section .second-image button {
+        width: 35%;
+    }
+
+    #touch-section .images-section .third-image {
+        width: 100%;
+    }
+
+    #intouch-part .main-intouch {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main-intouch .intouch-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-intouch .intouch-left h2 {
+        font-size: 25px;
+        margin-bottom: 3rem;
+    }
+
+    .main-intouch .intouch-left .intouch-images {
+        width: 50%;
+    }
+
+    .main-intouch .intouch-left .intouch-images img {
+        width: 50%;
+    }
+
+    .main-intouch .intouch-right {
+        margin-left: 0;
+    }
+
+    .main-intouch .intouch-right p {
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        padding: 0 2rem 2rem;
+    }
+
+    footer .footer-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    footer .fin-first {
+        width: 100%;
+    }
+
+    footer .fin-middle {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    footer .fin-middle ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .fin-last {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    footer .fin-last small {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+
+}

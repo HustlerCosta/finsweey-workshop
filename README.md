@@ -1,2 +1,0 @@
-# finsweet
-finsweet website
